@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chisondi & Brittany's Maui Babymoon 2026</title>
+<style>
+:root{--ocean:#0ea5e9;--ocean-dark:#0369a1;--sunset:#f97316;--palm:#16a34a;--sand:#fbbf24;--sand-light:#fef3c7;--lava:#dc2626;--purple:#9333ea;--bg:#f8fafc;--card:#fff;--text:#1e293b;--text2:#64748b;--border:#e2e8f0;--sh:0 1px 3px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.06);--r:12px}
+[data-theme=dark]{--bg:#0f172a;--card:#1e293b;--text:#f1f5f9;--text2:#94a3b8;--border:#334155;--sh:0 1px 3px rgba(0,0,0,.3)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;transition:background .3s,color .3s}
+.hero{background:linear-gradient(135deg,#0ea5e9 0%,#6366f1 40%,#f97316 80%,#eab308 100%);color:#fff;text-align:center;padding:3rem 1.5rem 2.5rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23fff' fill-opacity='.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");opacity:.5}
+.hero h1{font-size:2.2rem;font-weight:800;margin-bottom:.5rem;position:relative;text-shadow:0 2px 4px rgba(0,0,0,.2)}
+.hero .dates{font-size:1.15rem;opacity:.95;position:relative;font-weight:500}
+.hero .loc{font-size:1rem;opacity:.85;position:relative;margin-top:.25rem}
+.hero .sub{font-size:.9rem;opacity:.8;position:relative;margin-top:.5rem;font-style:italic}
+.ctrl{display:flex;justify-content:center;gap:.75rem;padding:1rem 1.5rem;background:var(--card);border-bottom:1px solid var(--border);flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:var(--sh)}
+.ctrl button{padding:.5rem 1rem;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);cursor:pointer;font-size:.85rem;font-weight:500;transition:all .2s}
+.ctrl button:hover{border-color:var(--ocean);color:var(--ocean)}
+.wrap{max-width:900px;margin:1.5rem auto;padding:0 1.5rem}
+.wrap-sm{max-width:900px;margin:1rem auto;padding:0 1.5rem}
+.prog-card{background:var(--card);border-radius:var(--r);padding:1.25rem 1.5rem;box-shadow:var(--sh);border:1px solid var(--border)}
+.prog-label{font-weight:600;margin-bottom:.5rem;font-size:.95rem}
+.prog-bg{background:var(--border);border-radius:100px;height:12px;overflow:hidden}
+.prog-fill{height:100%;border-radius:100px;background:linear-gradient(90deg,var(--ocean),var(--palm));transition:width .5s;min-width:0}
+.alert-card{background:linear-gradient(135deg,#fef2f2,#fff7ed);border:2px solid var(--lava);border-radius:var(--r);padding:1.25rem 1.5rem}
+[data-theme=dark] .alert-card{background:linear-gradient(135deg,#451a1a,#451a03)}
+.alert-card h3{color:var(--lava);margin-bottom:.75rem;font-size:1rem}
+.alert-item{display:flex;justify-content:space-between;align-items:center;padding:.4rem 0;font-size:.9rem;flex-wrap:wrap;gap:.5rem}
+.alert-item a{color:var(--ocean-dark);text-decoration:none;font-weight:500;font-size:.85rem}
+.alert-item a:hover{text-decoration:underline}
+.booked-tag{background:var(--palm);color:#fff;padding:.1rem .5rem;border-radius:4px;font-size:.75rem;font-weight:600}
+.preg-card{background:linear-gradient(135deg,#fdf4ff,#f0f9ff);border:2px solid var(--purple);border-radius:var(--r);padding:1.25rem 1.5rem}
+[data-theme=dark] .preg-card{background:linear-gradient(135deg,#2e1065,#0c1a3a)}
+.preg-card h3{color:var(--purple);margin-bottom:.75rem;font-size:1rem}
+.preg-card ul{list-style:none;padding:0}
+.preg-card li{padding:.2rem 0;font-size:.88rem}
+.preg-card li::before{content:"• ";color:var(--purple);font-weight:700}
+.fl-section{max-width:900px;margin:1.5rem auto;padding:0 1.5rem}
+.fl-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media(max-width:640px){.fl-grid{grid-template-columns:1fr}}
+.fl-card{background:var(--card);border-radius:var(--r);padding:1.25rem;box-shadow:var(--sh);border:1px solid var(--border);border-top:4px solid var(--ocean)}
+.fl-card.ret{border-top-color:var(--sunset)}
+.fl-lbl{font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:var(--text2);font-weight:600}
+.fl-route{font-size:1.4rem;font-weight:800;margin:.25rem 0}
+.fl-det{font-size:.9rem;color:var(--text2);margin:.15rem 0}
+.fl-seats{display:flex;gap:1rem;margin-top:.5rem;flex-wrap:wrap}
+.seat{background:var(--sand-light);padding:.2rem .6rem;border-radius:6px;font-size:.8rem;font-weight:600}
+[data-theme=dark] .seat{background:#422006;color:#fbbf24}
+.days{max-width:900px;margin:1.5rem auto 3rem;padding:0 1.5rem}
+.acc{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);border:1px solid var(--border);margin-bottom:1rem;overflow:hidden}
+.acc-h{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;cursor:pointer;user-select:none;transition:background .2s}
+.acc-h:hover{background:rgba(14,165,233,.05)}
+.acc-t{font-weight:700;font-size:1.05rem}
+.acc-s{color:var(--text2);font-size:.85rem}
+.chev{transition:transform .3s;font-size:1.2rem;color:var(--text2);flex-shrink:0;margin-left:1rem}
+.acc.open .chev{transform:rotate(180deg)}
+.acc-c{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.acc.open .acc-c{max-height:4000px}
+.acc-acts{padding:0 1.25rem 1.25rem}
+.act{display:flex;align-items:flex-start;gap:1rem;padding:1rem;border-radius:8px;margin-bottom:.75rem;border:1px solid var(--border);transition:box-shadow .2s}
+.act:hover{box-shadow:var(--sh)}
+.act:last-child{margin-bottom:0}
+.act-chk{flex-shrink:0;margin-top:.15rem}
+.act-chk input{width:20px;height:20px;cursor:pointer;accent-color:var(--palm)}
+.act-body{flex:1;min-width:0}
+.act-time{font-size:.8rem;color:var(--text2);font-weight:600;text-transform:uppercase;letter-spacing:.03em}
+.act-name{font-weight:600;font-size:1rem;margin:.15rem 0 .25rem}
+.act-loc{font-size:.85rem;color:var(--text2)}
+.act-notes{font-size:.85rem;color:var(--text2);font-style:italic;margin-top:.25rem}
+.act-meta{display:flex;align-items:center;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.badge{display:inline-flex;align-items:center;gap:.3rem;padding:.2rem .6rem;border-radius:100px;font-size:.75rem;font-weight:600;color:#fff}
+.c-beach{background:var(--ocean)}.c-nature{background:var(--palm)}.c-food{background:var(--sunset)}
+.c-cultural{background:var(--purple)}.c-logistics{background:#ca8a04}.c-mustbook{background:var(--lava)}
+.book-btn{display:inline-block;padding:.3rem .8rem;background:var(--ocean);color:#fff;text-decoration:none;border-radius:6px;font-size:.8rem;font-weight:600;transition:background .2s}
+.book-btn:hover{background:var(--ocean-dark)}
+@media print{.ctrl,.hero::before{display:none}.hero{padding:1rem;background:#0ea5e9!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}.acc-c{max-height:none!important}.acc,.act{break-inside:avoid}body{font-size:10pt}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>Chisondi & Brittany's Maui Adventure</h1>
+  <div class="dates">Apr 30 — May 8, 2026</div>
+  <div class="loc">2777 South Kihei Road, Maui, Hawaii</div>
+  <div class="sub">A babymoon to remember</div>
+</div>
+<div class="ctrl">
+  <button onclick="toggleTheme()" id="themeBtn">Dark Mode</button>
+  <button onclick="expandAll()">Expand All</button>
+  <button onclick="collapseAll()">Collapse All</button>
+  <button onclick="window.print()">Print Itinerary</button>
+</div>
+<div class="wrap"><div class="prog-card">
+  <div class="prog-label" id="pL">0 of 0 items booked</div>
+  <div class="prog-bg"><div class="prog-fill" id="pF" style="width:0%"></div></div>
+</div></div>
+<div class="wrap-sm"><div class="alert-card"><h3>⚠️ Must Book in Advance</h3><div id="aL"></div></div></div>
+<div class="wrap-sm"><div class="preg-card">
+  <h3>🤰 Pregnancy Travel Notes for Brittany</h3>
+  <ul>
+    <li>Avoid raw fish/sushi (ahi poke) — order cooked fish dishes</li>
+    <li>No scuba diving, zip-lining, parasailing, or horseback riding</li>
+    <li>Snorkeling generally OK — check with OB first</li>
+    <li>Haleakala summit: thin air, limit to ~30 min, leave if dizzy</li>
+    <li>Stay hydrated everywhere — extra water, seek shade often</li>
+    <li>Big Beach shore break can be intense — wade gently</li>
+    <li>Prenatal massage: request pregnancy-trained masseuse</li>
+    <li>Compression socks for flights; aisle seat for bathroom access</li>
+    <li>Dramamine for boat/winding roads — ask OB for pregnancy-safe brand</li>
+  </ul>
+</div></div>
+<div class="fl-section"><div class="fl-grid">
+  <div class="fl-card">
+    <div class="fl-lbl">✈️ Outbound Flight</div><div class="fl-route">SFO → OGG</div>
+    <div class="fl-det"><strong>AS 941</strong> — Alaska / Hawaiian Airlines</div>
+    <div class="fl-det">Thu, Apr 30 · Departs 7:32 AM → Arrives 9:51 AM (HI)</div>
+    <div class="fl-det">Main (G) Fare</div>
+    <div class="fl-seats"><span class="seat">Chisondi: 17C</span><span class="seat">Brittany: 17B</span></div>
+  </div>
+  <div class="fl-card ret">
+    <div class="fl-lbl">✈️ Return Flight</div><div class="fl-route">OGG → SFO</div>
+    <div class="fl-det"><strong>AS 978</strong> — Alaska / Hawaiian Airlines</div>
+    <div class="fl-det">Fri, May 8 · Departs 10:40 AM → Arrives 6:44 PM (PT)</div>
+    <div class="fl-det">Main (N) Fare</div>
+    <div class="fl-seats"><span class="seat">Chisondi: 17J</span><span class="seat">Brittany: 17H</span></div>
+  </div>
+</div></div>
+<div class="days" id="dC"></div>
+<script>
+const D=[
+{day:1,label:"Day 1",date:"Thu, Apr 30",title:"Arrival & Settle-In",acts:[
+{t:"9:51 AM",n:"Arrive OGG. Pick up rental car at airport.",loc:"OGG Airport, Kahului",c:"logistics",e:"✈️",link:"https://www.costcotravel.com/Rental-Cars",lt:"Costco Travel",note:"Renting car at airport"},
+{t:"11:00 AM",n:"Lunch at Tin Roof Maui",loc:"Kahului",c:"food",e:"🍽️",link:"https://www.tinroofmaui.com/",lt:"Tin Roof Maui",note:"Sheldon Simeon's spot. Avoid raw ahi (pregnancy)"},
+{t:"11:45 AM",n:"Acai bowls at Mo'Ono Hawaii food truck",loc:"Kahului",c:"food",e:"🍇",note:"Great post-flight snack — fresh fruit & acai"},
+{t:"12:30 PM",n:"Check into accommodation",loc:"2777 South Kihei Rd, Kihei",c:"logistics",e:"✈️"},
+{t:"1:30 – 4:00 PM",n:"Beach relaxation at Kamaole Beach Park",loc:"Kihei",c:"beach",e:"🏖️",note:"Calm water, easy access — gentle wade & relax for Brittany"},
+{t:"5:30 PM",n:"Dinner at Hula Grill Ka'anapali",loc:"Ka'anapali",c:"food",e:"🍽️",link:"https://www.hulagrillkaanapali.com/",lt:"Hula Grill",note:"Order cooked fish (avoid raw/sushi for pregnancy)"}
+]},
+{day:2,label:"Day 2",date:"Fri, May 1",title:"Beach Day & Lahaina",acts:[
+{t:"8:30 – 10:00 AM",n:"Gentle snorkel at Napili Bay (turtles, calm water)",loc:"Napili Bay",c:"beach",e:"🏖️",note:"Snorkeling OK if Brittany comfortable — no scuba"},
+{t:"10:00 – 11:30 AM",n:"Beach relaxation at Napili Bay",loc:"Napili Bay",c:"beach",e:"🏖️",note:"Float, enjoy the turtles. Shade & hydration for Brittany"},
+{t:"12:00 PM",n:"Lunch — poke bowls from Fish Market Maui",loc:"Lahaina area",c:"food",e:"🍽️",note:"Get cooked options for Brittany (no raw ahi)"},
+{t:"12:45 PM",n:"Shave ice at Ululani's Hawaiian Shave Ice",loc:"Lahaina or Kihei",c:"food",e:"🍧",link:"https://www.ululanishawaiianshaveice.com/",lt:"Ululani's",note:"Get ice cream base — Roselani macadamia nut!"},
+{t:"1:30 – 3:30 PM",n:"Explore Lahaina town — banyan tree, Front St, galleries",loc:"Lahaina",c:"cultural",e:"🏛️",link:"https://www.gofundme.com/f/maui-strong-fund",lt:"Maui Strong Fund",note:"Easy walking. Be respectful of rebuilding efforts"},
+{t:"5:30 PM",n:"Sunset dinner at Mala Ocean Tavern",loc:"Lahaina",c:"food",e:"🍽️",link:"https://www.malaoceantavern.com/",lt:"Mala Ocean Tavern",note:"Alt: Fleetwood's on Front St if reopened"}
+]},
+{day:3,label:"Day 3",date:"Sat, May 2",title:"Haleakala Sunrise + Upcountry",acts:[
+{t:"3:45 AM",n:"Depart for Haleakala summit (~1.5–2 hr drive)",loc:"2777 S Kihei Rd",c:"mustbook",e:"🌅",link:"https://www.recreation.gov/ticket/facility/253731",lt:"Recreation.gov",note:"⚠️ MUST RESERVE. Sunrise ~5:50 AM. Warm layers!",mb:true},
+{t:"5:30 – 6:15 AM",n:"Watch sunrise at Haleakala summit",loc:"Haleakala National Park",c:"mustbook",e:"🌅",note:"Limit to ~30 min at summit — thin air & pregnancy. Leave if dizzy"},
+{t:"8:30 AM",n:"Drive Upcountry. Visit Ali'i Kula Lavender Farm.",loc:"Kula",c:"nature",e:"🥾",link:"https://www.aklmaui.com/",lt:"Ali'i Kula Lavender",note:"Gentle walking, beautiful scenery"},
+{t:"10:00 AM",n:"Brunch at Grandma's Coffee House or Kula Bistro",loc:"Upcountry",c:"food",e:"🍽️"},
+{t:"11:30 AM",n:"Surfing Goat Dairy or MauiWine at Ulupalakua",loc:"Ulupalakua",c:"cultural",e:"🏛️",link:"https://mauiwine.com/",lt:"MauiWine",note:"Non-alcoholic tastings for Brittany. Goat dairy is fun!"},
+{t:"1:30 PM",n:"Stop at Leoda's Kitchen & Pie Shop on drive back",loc:"820 Olowalu Village Rd, Lahaina",c:"food",e:"🥧",note:"Famous pies — banana cream, macnut, savory pot pies"},
+{t:"3:00 – 5:00 PM",n:"Nap / rest at accommodation (early wake-up recovery!)",loc:"2777 S Kihei Rd",c:"beach",e:"🏖️",note:"You earned this nap"},
+{t:"6:00 PM",n:"Easy dinner — pick up food & eat at accommodation",loc:"2777 S Kihei Rd",c:"food",e:"🍽️",note:"Rest up for Road to Hana tomorrow"}
+]},
+{day:4,label:"Day 4",date:"Sun, May 3",title:"Road to Hana (Day Trip)",acts:[
+{t:"Night Before",n:"📱 Download audio tour app (needs wifi!)",loc:"",c:"logistics",e:"📱",link:"https://www.shakaguide.com/tours/maui/classic-road-to-hana-tour",lt:"Shaka Guide ($16)",note:"GPS audio plays as you drive. Works offline! Alt: GyPSy Guide / GuideAlong (~$10)"},
+{t:"7:00 AM",n:"Depart for Road to Hana. Pack snacks & water!",loc:"2777 S Kihei Rd",c:"logistics",e:"✈️",note:"Start audio tour. Bring crackers, fruit, water for nausea"},
+{t:"8:00 AM",n:"Twin Falls (Mile 2) — easy short walk",loc:"Mile 2, Hana Hwy",c:"nature",e:"🥾",note:"Short & gentle walk, fine for pregnancy"},
+{t:"8:45 AM",n:"Banana bread & fruit smoothie at Halfway to Hana",loc:"Haiku / Hana Hwy",c:"food",e:"🍌",note:"Fresh fruit smoothies + shave ice!"},
+{t:"9:30 AM",n:"Garden of Eden Arboretum (Mile 10)",loc:"Mile 10, Hana Hwy",c:"nature",e:"🥾",link:"https://www.mauigardenofeden.com/",lt:"Garden of Eden",note:"Flat walking paths — pregnancy friendly"},
+{t:"10:45 AM",n:"Ke'anae Peninsula (Mile 16.5) — scenic viewpoint",loc:"Mile 16.5, Hana Hwy",c:"cultural",e:"🏛️",note:"Quick stop, beautiful views, no hiking needed"},
+{t:"11:15 AM",n:"Upper Waikani Falls / Three Bears Falls (Mile 19)",loc:"Mile 19, Hana Hwy",c:"nature",e:"🥾",note:"Viewable from the road / short walk"},
+{t:"12:30 PM",n:"Wai'anapanapa State Park — black sand beach, sea caves",loc:"Hana",c:"mustbook",e:"🏖️",link:"https://www.gowaianapanapa.com/",lt:"Reserve Entry",note:"⚠️ MUST RESERVE park entry. Turnaround point",mb:true},
+{t:"1:30 PM",n:"Lunch at Braddah Hutts BBQ food truck",loc:"Hana",c:"food",e:"🍽️",note:"Grab food before heading back"},
+{t:"2:15 PM",n:"Drive back (reverse route — familiar road is easier)",loc:"Hana Hwy",c:"logistics",e:"✈️",note:"Take it slow, stop at missed spots. Brittany can rest/nap"},
+{t:"5:30 PM",n:"Arrive back. Easy dinner at accommodation or Nuka",loc:"Kihei / 2777 S Kihei Rd",c:"food",e:"🍽️",note:"Low-key after a long drive day"}
+]},
+{day:5,label:"Day 5",date:"Mon, May 4",title:"Beach & Babymoon Relaxation Day",acts:[
+{t:"9:00 AM",n:"Sleep in! Lazy morning at the accommodation",loc:"2777 S Kihei Rd",c:"beach",e:"🏖️",note:"You earned it after Hana. No alarm"},
+{t:"9:30 AM",n:"Acai bowls at Wow Wow Hawaiian Lemonade",loc:"Kihei",c:"food",e:"🍇",note:"Fresh lemonades + acai bowls. Great healthy breakfast"},
+{t:"10:30 AM – 1:00 PM",n:"Beach relaxation at Kamaole Beach III",loc:"Kihei",c:"beach",e:"🏖️",note:"Walk from accommodation. Calm water, lifeguards, shade trees"},
+{t:"1:00 PM",n:"Shave ice at Surfing Monkey Shave Ice",loc:"1881 S Kihei Rd, Kihei",c:"food",e:"🍧",note:"Kona coffee flavor + vegan coconut milk ice cream option"},
+{t:"2:00 – 4:00 PM",n:"Prenatal spa treatment or continued beach time",loc:"Wailea / Kihei",c:"beach",e:"🏖️",note:"Prenatal massage at a Wailea spa — Brittany's choice!"},
+{t:"4:15 PM",n:"Fresh fruit & acai at Hawaiian Moons Natural Foods",loc:"Kihei",c:"food",e:"🍇",note:"Tropical acai bowl + stock up on healthy snacks"},
+{t:"6:00 PM",n:"Dinner at Monkeypod Kitchen (happy hour, live music)",loc:"Wailea",c:"food",e:"🍽️",link:"https://www.monkeypodkitchen.com/",lt:"Monkeypod Kitchen",note:"Great mocktails for Brittany!"}
+]},
+{day:6,label:"Day 6",date:"Tue, May 5",title:"Molokini Snorkel + South Maui",acts:[
+{t:"6:00 AM",n:"Molokini Crater snorkel boat tour (departs Ma'alaea)",loc:"Ma'alaea Harbor",c:"mustbook",e:"🏖️",link:"https://www.pacificwhale.org/cruises/molokini-snorkel/",lt:"Pacific Whale Foundation",note:"⚠️ BOOK IN ADVANCE. Bring Dramamine (check w/ OB)",mb:true},
+{t:"11:30 AM",n:"Lunch at Coconut's Fish Cafe",loc:"Kihei",c:"food",e:"🍽️",link:"https://www.coconutsfishcafe.com/",lt:"Coconut's Fish Cafe",note:"Cooked fish tacos — pregnancy safe"},
+{t:"12:15 PM",n:"Shave ice at Peace Love Shave Ice",loc:"Azeka Plaza, Kihei",c:"food",e:"🍧",note:"Organic syrups, Thai Iced Tea flavor, Roselani ice cream base"},
+{t:"1:00 PM",n:"Visit Ahihi-Kinau Marine Preserve — tide pools & lava fields",loc:"Wailea / La Perouse Bay",c:"nature",e:"🌊",note:"Beautiful natural reserve. Gentle exploring, tide pools"},
+{t:"2:30 – 4:30 PM",n:"Beach relaxation at Big Beach (Makena State Park)",loc:"Makena",c:"beach",e:"🏖️",note:"Watch the bodyboarders! Brittany should wade gently — big shore break"},
+{t:"6:00 PM",n:"Dinner at Mama's Fish House",loc:"Pa'ia",c:"mustbook",e:"🍽️",link:"https://www.mamasfishhouse.com/",lt:"Mama's Fish House",note:"⚠️ RESERVE WELL IN ADVANCE. Order cooked dishes for Brittany",mb:true}
+]},
+{day:7,label:"Day 7",date:"Wed, May 6",title:"'Iao Valley + Relaxation Day",acts:[
+{t:"8:30 AM",n:"'Iao Valley State Monument — 'Iao Needle viewpoint walk",loc:"'Iao Valley",c:"nature",e:"🥾",link:"https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/",lt:"'Iao Valley Info",note:"Short paved path. Perfect for pregnancy"},
+{t:"10:30 AM",n:"Lunch at Sam Sato's (dry mein and manju)",loc:"Wailuku",c:"food",e:"🍽️",note:"Famous local spot — the manju is a must!"},
+{t:"12:00 – 4:00 PM",n:"Beach relaxation or Wailea Beach Path walk",loc:"Wailea / Kihei",c:"beach",e:"🏖️",note:"Flat oceanfront path or lazy afternoon at the beach"},
+{t:"5:00 PM",n:"Luau — Old Lahaina Luau or Feast at Lele",loc:"Lahaina",c:"mustbook",e:"🏛️",link:"https://www.oldlahainaluau.com/",lt:"Old Lahaina Luau",note:"⚠️ BOOK IN ADVANCE. Seated & relaxed — perfect for pregnancy",mb:true}
+]},
+{day:8,label:"Day 8",date:"Thu, May 7",title:"Flexible Adventure Day",acts:[
+{t:"8:00 AM",n:"Easy morning walk along Wailea Beach Path",loc:"Wailea",c:"beach",e:"🏖️",note:"Flat oceanfront path, gorgeous views. Great gentle exercise"},
+{t:"9:00 AM",n:"Acai bowl at Brekkie Bowls food truck",loc:"Wailea",c:"food",e:"🍇",note:"Superfood acai bowl — perfect pregnancy fuel!"},
+{t:"10:30 AM",n:"Shave ice at Ululani's (Kihei location)",loc:"61 S Kihei Rd, Kihei",c:"food",e:"🍧",link:"https://www.ululanishawaiianshaveice.com/",lt:"Ululani's",note:"Round 2! Try a different flavor combo"},
+{t:"11:15 AM",n:"Fresh fruit bowls at Maui Fruit Ninja",loc:"Lahaina",c:"food",e:"🍉",link:"https://www.mauifruitninja.com/",lt:"Maui Fruit Ninja",note:"Seasonal tropical fruit bowls & dairy-free sorbets"},
+{t:"12:30 – 3:00 PM",n:"Beach time + revisits, shopping, souvenirs",loc:"Various / Kihei",c:"beach",e:"🏖️",note:"Last full beach day! Soak it in"},
+{t:"3:30 PM",n:"Pie & treats at Leoda's Kitchen and Pie Shop",loc:"820 Olowalu Village Rd, Lahaina",c:"food",e:"🥧",note:"Famous pies — banana cream, macnut, savory pot pies"},
+{t:"5:30 PM",n:"Final sunset dinner at Merriman's Kapalua",loc:"Kapalua",c:"mustbook",e:"🍽️",link:"https://www.merrimanshawaii.com/kapalua/",lt:"Merriman's Kapalua",note:"BOOKED — hoping for outdoor 5:30 seating (waitlisted). Keep checking!",mb:true,pb:true}
+]},
+{day:9,label:"Day 9",date:"Fri, May 8",title:"Departure",acts:[
+{t:"7:00 AM",n:"Last morning beach walk at Kamaole Beach",loc:"Kihei",c:"beach",e:"🏖️",note:"One last Maui sunrise moment"},
+{t:"8:00 AM",n:"Pack up, check out. Return rental car at OGG.",loc:"2777 S Kihei Rd → OGG",c:"logistics",e:"✈️",note:"Airport is ~25 min from Kihei"},
+{t:"10:40 AM",n:"Flight AS 978 OGG → SFO. Arrive 6:44 PM.",loc:"OGG Airport",c:"logistics",e:"✈️"}
+]}
+];
+const CC={beach:"c-beach",nature:"c-nature",food:"c-food",cultural:"c-cultural",logistics:"c-logistics",mustbook:"c-mustbook"};
+const CL={beach:"🏖️ Beach / Water",nature:"🥾 Nature / Hiking",food:"🍽️ Food / Dining",cultural:"🏛️ Cultural",logistics:"✈️ Logistics",mustbook:"⚠️ Must-Book"};
+function gB(){try{return JSON.parse(localStorage.getItem("maui2026b")||"{}")}catch{return{}}}
+function sB(o){localStorage.setItem("maui2026b",JSON.stringify(o))}
+function aId(d,i){return`d${d}_a${i}`}
+(function(){const b=gB();D.forEach(d=>{d.acts.forEach((a,i)=>{if(a.pb&&!(aId(d.day,i)in b))b[aId(d.day,i)]=true})});sB(b)})();
+function uP(){const b=gB();let t=0,d=0;D.forEach(dy=>{dy.acts.forEach((a,i)=>{t++;if(b[aId(dy.day,i)])d++})});document.getElementById("pL").textContent=`${d} of ${t} items booked`;document.getElementById("pF").style.width=t?`${(d/t*100).toFixed(1)}%`:"0%"}
+function rA(){const b=gB(),m=[];D.forEach(d=>{d.acts.forEach((a,i)=>{if(a.mb)m.push({...a,id:aId(d.day,i)})})});document.getElementById("aL").innerHTML=m.map(a=>{const ib=b[a.id];return`<div class="alert-item"><span>${a.e} ${a.n}</span><span>${ib?'<span class="booked-tag">BOOKED</span>':''}${a.link?` <a href="${a.link}" target="_blank" rel="noopener">Book Now →</a>`:''}</span></div>`}).join("")}
+function rD(){const b=gB();document.getElementById("dC").innerHTML=D.map((d,di)=>{const h=d.acts.map((a,i)=>{const id=aId(d.day,i),ck=b[id]?"checked":"";return`<div class="act"><div class="act-chk"><input type="checkbox" ${ck} data-id="${id}" onchange="tB(this)"></div><div class="act-body"><div class="act-time">${a.t}</div><div class="act-name">${a.n}</div>${a.loc?`<div class="act-loc">📍 ${a.loc}</div>`:""}${a.note?`<div class="act-notes">${a.note}</div>`:""}<div class="act-meta"><span class="badge ${CC[a.c]}">${CL[a.c]}</span>${a.link?`<a href="${a.link}" target="_blank" rel="noopener" class="book-btn">${a.lt||"Book Now"}</a>`:""}</div></div></div>`}).join("");return`<div class="acc${di===0?" open":""}" data-day="${d.day}"><div class="acc-h" onclick="tD(this)"><div><div class="acc-t">${d.label} — ${d.title}</div><div class="acc-s">${d.date}</div></div><div class="chev">▼</div></div><div class="acc-c"><div class="acc-acts">${h}</div></div></div>`}).join("")}
+function tD(h){h.closest(".acc").classList.toggle("open")}
+function expandAll(){document.querySelectorAll(".acc").forEach(e=>e.classList.add("open"))}
+function collapseAll(){document.querySelectorAll(".acc").forEach(e=>e.classList.remove("open"))}
+function tB(cb){const b=gB();b[cb.dataset.id]=cb.checked;sB(b);uP();rA()}
+function toggleTheme(){const d=document.documentElement.getAttribute("data-theme")==="dark";document.documentElement.setAttribute("data-theme",d?"light":"dark");document.getElementById("themeBtn").textContent=d?"Dark Mode":"Light Mode";localStorage.setItem("maui2026t",d?"light":"dark")}
+(function(){const t=localStorage.getItem("maui2026t")||"light";document.documentElement.setAttribute("data-theme",t);document.getElementById("themeBtn").textContent=t==="dark"?"Light Mode":"Dark Mode";rD();rA();uP()})();
+</script>
+</body>
+</html>
